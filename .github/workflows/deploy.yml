@@ -1,11 +1,9 @@
 name: Deploy Next.js site to Pages
 
 on:
-  # Trigger on pushes to main branch or manually
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-
+  release:
+    types: [published]
+    
 permissions:
   contents: read
   pages: write
