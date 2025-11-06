@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+
 export default function Home() {
-  return (
-    <html>
-      <h1>Paralake City</h1>
-    </html>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    window.location.href = 'http://www.paralakev6.com';
+  }, []);
+
+  return <p>Redirecting...</p>;
 }
