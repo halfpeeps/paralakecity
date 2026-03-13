@@ -5,8 +5,8 @@ export default function Home() {
   const router = useRouter();
 
   useEffect(() => {
-    window.location.href = 'http://www.paralakev6.com';
+    window.location.href = '/archive.html';
   }, []);
 
-  return <p>Redirecting...</p>;
+  return <p></p>;
 }

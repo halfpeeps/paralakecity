@@ -1,0 +1,217 @@
+#page-container {
+    overflow-y: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.version-tag {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: normal;
+    font-family: var(--font-primary);
+    position: relative;
+    top: -3px;
+}
+
+ .download-info p {
+     margin: 0 0 var(--spacing-small);
+ }
+
+#downloads-container {
+    max-width: 60%;
+    min-width: 400px;
+    margin: 20px auto;
+    padding: var(--spacing-medium);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    font-family: var(--font-secondary);
+    border-radius: var(--border-radius);
+    background-color: var(--color-hover-transparent);
+    min-width: 900px;
+    transition: background-color 0.3s ease;
+}
+
+.download-item {
+    display: flex;
+    align-items: center;
+    background: var(--color-sidebar);
+    padding: var(--spacing-small);
+    border-radius: var(--border-radius);
+    transition: background .3s ease;
+    font-family: var(--font-primary);
+}
+
+.download-item-map {
+    display: flex;
+    min-height: 400px;
+    align-items: center;
+    background: var(--color-v6-gradient);
+    padding: 1%;
+    border-radius: var(--border-radius);
+    transition: background .3s ease;
+    font-family: var(--font-primary);
+    min-width: 800px;
+}
+
+.download-item-map-night {
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    background: var(--color-v6-gradient-night);
+    padding: 1%;
+    border-radius: var(--border-radius);
+    transition: background .3s ease;
+    font-family: var(--font-primary);
+    min-width: 800px;
+}
+
+.download-item-map-winter {
+    display: flex;
+    min-height: 200px;
+    align-items: center;
+    background: var(--color-v6-gradient-winter);
+    padding: 1%;
+    border-radius: var(--border-radius);
+    transition: background .3s ease;
+    font-family: var(--font-primary);
+    min-width: 800px;
+}
+
+
+.download-item:hover {
+    background: var(--color-downloads-background);
+}
+
+.download-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-medium);
+    border-width: 0px;
+}
+
+.download-item-map img {
+    width: 400px;
+    min-height: 400px;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-medium);
+    margin-left: 5px;
+    border-width: 0px;
+}
+
+.download-item-map-night img {
+    width: 245px;
+    height: 245px;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-medium);
+    margin-left: 5px;
+    border-width: 0px;
+}
+
+.download-item-map-winter img {
+    width: 245px;
+    height: 245px;
+    object-fit: contain;
+    border-radius: var(--border-radius);
+    margin-right: var(--spacing-medium);
+    margin-left: 5px;
+    border-width: 0px;
+}
+
+.download-item img:hover {
+    border-width: 0px;
+}
+
+.download-item-map img:hover {
+    border-width: 0px;
+}
+
+.download-item-map-night img:hover {
+    border-width: 0px;
+}
+
+.download-info {
+    flex: 1;
+}
+
+.download-info h2 {
+    font-family: var(--font-secondary);
+    margin: 0 0 var(--spacing-small);
+}
+
+.download-info h1 {
+    font-family: var(--font-secondary);
+}
+
+.download-info p {
+    margin: 0 0 var(--spacing-small);
+}
+
+.download-info-map p {
+    margin: 0 0 var(--spacing-small);
+}
+
+.download-link {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    background: var(--color-header-footer);
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background 0.3s;
+}
+
+.download-button {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    background: var(--color-header-footer);
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background 0.3s;
+    border: none;
+    height: 40px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background: var(--color-accent);
+    color: var(--color-text-dark);
+}
+
+.download-link-steam {
+    display: inline-block;
+    padding: var(--spacing-small) var(--spacing-medium);
+    background: var(--color-header-footer);
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: background 0.3s;
+    transition: color 0.15s;
+    background-color: var(--color-steam);
+}
+
+.download-link:hover {
+    background: var(--color-accent);
+    color: var(--color-text-dark);
+}
+
+.download-link-steam:hover {
+    background: var(--color-accent);
+    color: var(--color-text-dark);
+}
