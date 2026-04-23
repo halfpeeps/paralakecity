@@ -30,7 +30,7 @@ body {
 
   background-image: 
     radial-gradient(ellipse at top, transparent 0%, var(--color-bg) 85%),
-    radial-gradient(circle, transparent 2px, var(--color-bg) 2.5px),
+    radial-gradient(circle, transparent 1px, var(--color-bg) 2.5px),
     conic-gradient(from var(--angle), 
       var(--grad-color-1), 
       var(--grad-color-2), 
