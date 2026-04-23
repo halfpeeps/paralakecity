@@ -186,9 +186,7 @@ html[data-theme='light'] #theme-toggle {
     justify-content: space-between;
     align-items: center;
     padding: 8px 25px;
-    background: rgba(20, 20, 20, 0.75);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(40, 40, 40, 1);
     color: var(--color-text);
     border-bottom: 1px solid var(--color-border-hover);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
