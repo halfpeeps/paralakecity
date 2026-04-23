@@ -3,147 +3,172 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    /* The main flex wrapper manages it now */
 }
 
 .version-tag {
-    background-color: rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--color-border-hover);
+    border-radius: 4px;
     padding: 2px 8px;
     font-size: 14px;
     vertical-align: middle;
     margin-left: 10px;
-    font-weight: normal;
+    font-weight: 600;
     font-family: var(--font-primary);
     position: relative;
     top: -3px;
+    color: var(--color-accent);
 }
 
- .download-info p {
-     margin: 0 0 var(--spacing-small);
- }
+.download-info p {
+    margin: 0 0 var(--spacing-small);
+    line-height: 1.5;
+}
 
-#downloads-container {
+.downloads-container {
     max-width: 60%;
-    min-width: 400px;
+    min-width: 900px;
     margin: 20px auto;
     padding: var(--spacing-medium);
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-medium);
+    gap: 15px;
     font-family: var(--font-secondary);
-    border-radius: var(--border-radius);
-    background-color: var(--color-hover-transparent);
-    min-width: 900px;
+    border-radius: 8px;
+    background: transparent; /* Removed the solid block */
     transition: background-color 0.3s ease;
+}
+
+.downloads-container h1 {
+    font-family: var(--font-secondary);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .download-item {
     display: flex;
     align-items: center;
-    background: var(--color-sidebar);
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: var(--spacing-small);
-    border-radius: var(--border-radius);
-    transition: background .3s ease;
+    border: 1px solid var(--color-border-hover);
+    border-radius: 6px;
+    transition: all .3s ease;
     font-family: var(--font-primary);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+html[data-theme='light'] .download-item {
+    background: rgba(230, 230, 230, 0.6);
 }
 
 .download-item-map {
     display: flex;
     min-height: 400px;
     align-items: center;
-    background: var(--color-v6-gradient);
+    background: linear-gradient(135deg, rgba(209, 45, 156, 0.2), rgba(242, 95, 48, 0.2), rgba(94, 162, 239, 0.2));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: 1%;
-    border-radius: var(--border-radius);
-    transition: background .3s ease;
+    border: 1px solid rgba(242, 95, 48, 0.4);
+    border-radius: 6px;
+    transition: all .3s ease;
     font-family: var(--font-primary);
     min-width: 800px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 
 .download-item-map-night {
     display: flex;
     min-height: 200px;
     align-items: center;
-    background: var(--color-v6-gradient-night);
+    background: linear-gradient(135deg, rgba(119, 41, 113, 0.4), rgba(47, 49, 51, 0.6), rgba(49, 65, 99, 0.4));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: 1%;
-    border-radius: var(--border-radius);
-    transition: background .3s ease;
+    border: 1px solid rgba(119, 41, 113, 0.4);
+    border-radius: 6px;
+    transition: all .3s ease;
     font-family: var(--font-primary);
     min-width: 800px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 
 .download-item-map-winter {
     display: flex;
     min-height: 200px;
     align-items: center;
-    background: var(--color-v6-gradient-winter);
+    background: linear-gradient(135deg, rgba(82, 164, 211, 0.3), rgba(40, 60, 80, 0.6), rgba(102, 116, 146, 0.4));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     padding: 1%;
-    border-radius: var(--border-radius);
-    transition: background .3s ease;
+    border: 1px solid rgba(82, 164, 211, 0.4);
+    border-radius: 6px;
+    transition: all .3s ease;
     font-family: var(--font-primary);
     min-width: 800px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
 }
 
-
-.download-item:hover {
-    background: var(--color-downloads-background);
+.download-item:hover, .download-item-map:hover, .download-item-map-night:hover, .download-item-map-winter:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    border-color: var(--color-accent);
 }
 
 .download-item img {
     width: 120px;
     height: 120px;
     object-fit: cover;
-    border-radius: var(--border-radius);
+    border-radius: 4px;
     margin-right: var(--spacing-medium);
-    border-width: 0px;
+    border: 1px solid var(--color-border-hover);
 }
 
 .download-item-map img {
     width: 400px;
     min-height: 400px;
     object-fit: contain;
-    border-radius: var(--border-radius);
+    border-radius: 4px;
     margin-right: var(--spacing-medium);
     margin-left: 5px;
-    border-width: 0px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-.download-item-map-night img {
-    width: 245px;
-    height: 245px;
-    object-fit: contain;
-    border-radius: var(--border-radius);
-    margin-right: var(--spacing-medium);
-    margin-left: 5px;
-    border-width: 0px;
-}
-
+.download-item-map-night img,
 .download-item-map-winter img {
     width: 245px;
     height: 245px;
     object-fit: contain;
-    border-radius: var(--border-radius);
+    border-radius: 4px;
     margin-right: var(--spacing-medium);
     margin-left: 5px;
-    border-width: 0px;
-}
-
-.download-item img:hover {
-    border-width: 0px;
-}
-
-.download-item-map img:hover {
-    border-width: 0px;
-}
-
-.download-item-map-night img:hover {
-    border-width: 0px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 .download-info {
     flex: 1;
+}
+
+.download-item-map .download-info,
+.download-item-map-night .download-info,
+.download-item-map-winter .download-info {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    padding: var(--spacing-small);
+    padding-right: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
 .download-info h2 {
@@ -155,63 +180,55 @@
     font-family: var(--font-secondary);
 }
 
-.download-info p {
-    margin: 0 0 var(--spacing-small);
-}
-
-.download-info-map p {
-    margin: 0 0 var(--spacing-small);
-}
-
-.download-link {
+/* Action Buttons */
+.download-link, .download-button, .download-link-steam {
     display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
-    background: var(--color-header-footer);
+    padding: 8px 16px;
+    background: transparent;
     color: var(--color-text);
     text-decoration: none;
-    border-radius: var(--border-radius);
-    transition: background 0.3s;
-}
-
-.download-button {
-    display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
-    background: var(--color-header-footer);
-    color: var(--color-text);
-    text-decoration: none;
-    border-radius: var(--border-radius);
-    transition: background 0.3s;
-    border: none;
-    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--color-border-hover);
     font-family: var(--font-primary);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
-.download-button:hover {
-    background: var(--color-accent);
+html[data-theme='light'] .download-link, 
+html[data-theme='light'] .download-button, 
+html[data-theme='light'] .download-link-steam {
     color: var(--color-text-dark);
+}
+
+.download-link:hover, .download-button:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+html[data-theme='light'] .download-link:hover, 
+html[data-theme='light'] .download-button:hover {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .download-link-steam {
-    display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
-    background: var(--color-header-footer);
-    color: var(--color-text);
-    text-decoration: none;
-    border-radius: var(--border-radius);
-    transition: background 0.3s;
-    transition: color 0.15s;
-    background-color: var(--color-steam);
-}
-
-.download-link:hover {
-    background: var(--color-accent);
-    color: var(--color-text-dark);
+    border-color: rgba(26, 159, 255, 0.5);
+    color: #1A9FFF;
 }
 
 .download-link-steam:hover {
-    background: var(--color-accent);
-    color: var(--color-text-dark);
+    background: rgba(26, 159, 255, 0.1);
+    border-color: #1A9FFF;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(26, 159, 255, 0.3);
+}
+
+html[data-theme='light'] .download-link-steam:hover {
+    color: #121212;
 }

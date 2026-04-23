@@ -69,137 +69,115 @@ body {
 }
 
 /* toolbar */
-#header-menu {
-    position: absolute;
-    top: 110%;
-    left: calc(50% - 600px);
-    width: 1200px;
-    background-color: var(--color-hover-transparent);
-    text-align: center;
+#header-nav {
+    display: flex;
     align-items: center;
-    display: none;
-    padding: 10px 0;
-    border-radius: var(--border-radius);
-    opacity: 0;
-    transform: translateY(-10px);
-    transition: opacity 0.3s ease-out, transform 0.3s ease-out, background-color 0.3s ease;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .menu-button {
-    background-color: var(--color-border-hover);
+    background-color: transparent;
     font-family: var(--font-secondary);
     font-weight: 600;
     color: var(--color-text);
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
+    border: 1px solid transparent;
+    padding: 6px 14px;
+    font-size: 15px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.1s, color 0.3s;
-    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    border-radius: 4px;
 }
 
 .menu-button:hover {
-    background: var(--color-accent);
-    transform: scale(1.05);
-    color: var(--color-text-dark);
-    transition: background 0.3s, transform 0.1s, color 0.3s;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+    transform: translateY(-1px);
+}
+
+html[data-theme='light'] .menu-button:hover {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .menu-button-active {
-    background-color: var(--color-border-hover);
+    background-color: rgba(255, 255, 255, 0.05);
     font-family: var(--font-secondary);
     font-weight: 600;
-    color: var(--color-text);
-    border: 2px solid var(--color-accent);
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    padding: 6px 14px;
+    font-size: 15px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.1s, color 0.3s;
-    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+html[data-theme='light'] .menu-button-active {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .menu-button-active:hover {
     background: var(--color-accent);
-    transform: scale(1.05);
     color: var(--color-text-dark);
-    transition: background 0.3s, transform 0.1s, color 0.3s;
+    transform: translateY(-1px);
 }
 
 .menu-button-disabled {
-    background-color: var(--color-border-hover);
+    background-color: transparent;
     color: var(--color-text);
     font-family: var(--font-secondary);
     font-weight: 600;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.3s, transform 0.1s;
-    border-radius: var(--border-radius);
-}
-
-.menu-button-disabled:hover {
-    background: var(--color-hover-dark);
+    border: 1px solid transparent;
+    padding: 6px 14px;
+    font-size: 15px;
+    cursor: not-allowed;
+    opacity: 0.5;
+    border-radius: 4px;
 }
 
 .menu-button-map {
-    background: linear-gradient(to right, #484f8d, #5b61b1, #484f8d);
+    background: linear-gradient(to right, rgba(72, 79, 141, 0.3), rgba(91, 97, 177, 0.3));
     font-family: var(--font-secondary);
     font-weight: 600;
-    color: var(--color-text);
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    font-size: 16px;
+    color: #8da4ff;
+    border: 1px solid #5b61b1;
+    padding: 6px 14px;
+    font-size: 15px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.1s, color 0.3s;
-    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    border-radius: 4px;
 }
 
 .menu-button-map:hover {
-    background: var(--color-accent);
-    color: var(--color-text-dark);
-    transform: scale(1.05);
-    transition: transform 0.1s, color 0.3s;
-}
-
-#header:hover + #header-menu,
-#header-menu:hover {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
+    background: linear-gradient(to right, #484f8d, #5b61b1);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(91, 97, 177, 0.4);
 }
 
 #theme-toggle {
-    background-color: #dfdfdf;
-    color: var(--color-text-dark);
+    background-color: transparent;
+    color: var(--color-text);
     font-family: var(--font-secondary);
     font-weight: 600;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
+    border: 1px solid var(--color-border-hover);
+    padding: 6px 14px;
+    margin-left: 10px;
+    font-size: 15px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.1s, color 0.3s;
-    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    border-radius: 4px;
 }
 
 html[data-theme='light'] #theme-toggle {
-    background-color: #222;
-    color: white;
+    color: var(--color-text-dark);
 }
 
 #theme-toggle:hover {
-    color: var(--color-text-dark);
-    background-color: var(--color-accent);
-}
-
-html[data-theme='light'] #theme-toggle:hover {
-    color: var(--color-text-dark);
-    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-accent);
 }
 
 /* header */
@@ -207,26 +185,43 @@ html[data-theme='light'] #theme-toggle:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px var(--spacing-medium);
-    background: var(--color-v6-gradient-subtle);
+    padding: 8px 25px;
+    background: rgba(20, 20, 20, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     color: var(--color-text);
-    font-size: 28px;
-    border-bottom: 2px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border-hover);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
     font-family: var(--font-secondary);
     font-weight: 600;
     position: sticky;
     top: 0;
-    z-index: 10;
+    width: 100%;
+    z-index: 100;
+}
+
+html[data-theme='light'] #header {
+    background: rgba(230, 230, 230, 0.75);
 }
 
 #header-title {
-    color: var(--color-headertext)
+    color: var(--color-headertext);
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+html[data-theme='light'] #header-title {
+    color: #222;
 }
 
 #header-subtitle {
     font-weight: 400;
-    font-size: 22px;
-    line-height: 0.8;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--color-accent);
+    letter-spacing: 2px;
 }
 
 /* mobile device warning */
