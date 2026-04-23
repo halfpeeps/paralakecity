@@ -4,14 +4,14 @@
     <meta name="google-site-verification" content="bjevHpP5Qc-g1TjDo6F0PUbD0nyB646EqcNfrxjrxjs" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloads | Paralake V6</title>
+    <title>Paralake City | Downloads</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/downloads.css">
     <link rel="icon" type="image/x-icon" href="images_excluded/archive_icon_mono.png">
     <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body style="background-image: url('images_excluded/bg08.png'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;">
     <div id="mobile-warning">
         <div class="mobile-warning-content">
             <p>This site is not designed to work on mobile devices.</p>
@@ -20,22 +20,15 @@
     </div>
     
     <div id="header">
-        <span id="header-title" style="line-height: 0.8;">Paralake V6<br><span id="header-subtitle" style="font-size: 22px;">Downloads</span></span>
+        <span id="header-title" style="line-height: 0.8; cursor: pointer;" onclick="location.href='index.html'">Paralake City</span>
         
-        <a href="archive.html" style="padding-top: 5px">
-            <img src="images_excluded/archive_logo_mono.png" alt="Logo" style="height: 45px; border: 0px"
-            onmouseover="this.src='images_excluded/archive_logo.png';"
-            onmouseout="this.src='images_excluded/archive_logo_mono.png';">
-        </a>
-
-        <div id="header-menu">
+        <div id="header-nav">
             <button class="menu-button" onclick="location.href='archive.html'">Development Archive</button>
             <button class="menu-button" onclick="location.href='changelogs.html'">Changelogs</button>
-            <button class="menu-button" onclick="location.href='updates.html'">Posts</button>
             <button class="menu-button-active" onclick="location.href='downloads.html'">Downloads</button>
             <button class="menu-button" onclick="location.href='credits.html'">Map Credits</button>
             <button class="menu-button-map" onclick="location.href='map.html'">Interactive Map</button>
-            <button id="theme-toggle">Dark Theme</button>
+            <!-- <button id="theme-toggle">Dark Theme</button> -->
         </div>
     </div>
 
@@ -57,12 +50,12 @@
         </div>
       </div>       
         
-    <div id="page-container" style="background-image: url('images_excluded/bg08.png');">
-        <div id="downloads-container">
+    <div id="page-container">
+        <div class="downloads-container">
             <h1>Downloads</h1>
             <div class="download-item-map">
                 <img src="images_excluded/rp_paralake_city_v6.png">
-                <div class="download-info" style="background-color: #0000005d; padding: var(--spacing-small); padding-right: 20px; border-radius: var(--border-radius); min-height: 378px;">
+                <div class="download-info">
                     <h1>Paralake City V6<span class="version-tag">6.2.03</span></h1>
                     <p>Update 6.2 out now: new properties, enhancements, visual improvements and more!</p><br>
                     Bigger, more detailed,
@@ -110,7 +103,7 @@
             </div>
         </div>
         
-        <main id="downloads-container">
+        <main class="downloads-container">
             <h1>Other Versions</h1>
             <div class="download-item">
                 <img src="images_excluded/rp_paralake_city_v6_legacy.png">
@@ -154,7 +147,7 @@
             </div>
         </main>
 
-        <main id="downloads-container">
+        <main class="downloads-container">
             <h1>Other Downloads</h1>
             <div class="download-item">
                 <img src="images_excluded/wallpaperpack.png">
@@ -206,10 +199,10 @@
         </main>
     </div>
       
-    <div id="pagefooter" style="position: sticky !important; bottom: 0; width: 100%; z-index: 9999;"></div>
+    <div id="pagefooter" style="position: sticky; z-index: 9999;"></div>
     <script src="scripts/mobileWarning.js"></script>
     <script src="scripts/footer.js"></script>
-    <script src="scripts/headerMenu.js"></script>
+    <!-- <script src="scripts/headerMenu.js"></script> -->
 
     <!-- img download scripts -->
     <script src="scripts/downloads.js"></script>
