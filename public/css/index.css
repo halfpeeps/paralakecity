@@ -11,7 +11,6 @@
     transition: opacity 0.5s ease-out;
 }
 
-/* Base body style for technical grid */
 @property --angle {
   syntax: '<angle>';
   initial-value: 0deg;
@@ -24,7 +23,6 @@
   --grad-color-3: #5ea2ef;
 }
 
-/* Base body style for technical grid */
 body {
   animation: spin-dots 10s linear infinite;
 
