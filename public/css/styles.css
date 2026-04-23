@@ -204,10 +204,13 @@ html[data-theme='light'] #header {
 }
 
 #header-title {
-    color: var(--color-headertext);
+    background: var(--color-v6-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0px 10px rgba(255, 255, 255, .2);
     font-size: 26px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
 }
 
 html[data-theme='light'] #header-title {
@@ -218,7 +221,7 @@ html[data-theme='light'] #header-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
-    color: var(--color-accent);
+    color: var(--color-v6-gradient);
     letter-spacing: 2px;
 }
 
