@@ -5,7 +5,7 @@ const markers = [];
 
 const baseMap = L.imageOverlay('map_resources/map_dark.png', bounds);
 const baseMapLight = L.imageOverlay('map_resources/map_light.png', bounds);
-const satelliteMap = L.imageOverlay('map_resources/map_sat.jpg', bounds);
+const satelliteMap = L.imageOverlay('map_resources/map_sat.png', bounds);
 const streetNames = L.imageOverlay('map_resources/streetnames.png', bounds);
 const propertyBounds = L.imageOverlay('map_resources/property_bounds.png', bounds);
 const muggingMap = L.imageOverlay('map_resources/map_mugging.png', bounds);

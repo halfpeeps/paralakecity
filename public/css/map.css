@@ -1,3 +1,35 @@
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+:root {
+  /* Your existing variables... */
+  --background: #314256;
+  --background-light: #e0dfdf;
+  --sidebar-bg: rgba(34, 34, 34, 0.85);
+  --sidebar-bg-solid: #222;
+  --text: #f0f0f0;
+  --accent: #f3b447;
+  --border: #444;
+  --tag-bg: #444;
+  --font-primary: 'Sono', serif;
+  --font-secondary: 'Jost', serif;
+  --font-body: 'Funnel Sans', sans-serif;
+  
+  /* Add the gradient colors for the dots */
+  --grad-color-1: #303e6f;
+  --grad-color-2: #405395;
+  --grad-color-3: #14192f;
+}
+
+@keyframes spin-dots {
+  to {
+    --angle: 360deg;
+  }
+}
+
 :root {
   --background: #314256;
   --background-light: #e0dfdf;
@@ -46,7 +78,28 @@ html, body {
 }
 
 .leaflet-container {
-  background: var(--background) !important;
+  /* The Leaflet container is now the animated canvas */
+  animation: spin-dots 10s linear infinite;
+  
+  /* We use your --background variable so it adapts to light/dark mode! */
+  background-image: 
+    /* Top Layer: A subtle radial fade directed at the center */
+    radial-gradient(ellipse at center, transparent 0%, var(--background) 85%),
+    
+    /* Middle Layer: The Perforated Sheet using your theme's background */
+    radial-gradient(circle, transparent 2px, var(--background) 2.5px),
+    
+    /* Bottom Layer: The spinning gradient */
+    conic-gradient(from var(--angle), 
+      var(--grad-color-1), 
+      var(--grad-color-2), 
+      var(--grad-color-3), 
+      var(--grad-color-1)
+    ) !important; /* Kept !important to ensure Leaflet doesn't override it */
+    
+  background-size: 100% 100%, 20px 20px, 100% 100% !important;
+  background-position: center center, center center, center center !important;
+  background-color: var(--background) !important;
 }
 
 .leaflet-control-zoom {
