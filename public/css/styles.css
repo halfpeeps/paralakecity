@@ -137,11 +137,44 @@ html[data-theme='light'] .menu-button-active {
     border-radius: 4px;
 }
 
+.menu-button-calendar {
+    background: linear-gradient(to right, rgba(72, 79, 141, 0.3), rgba(91, 97, 177, 0.3));
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: #b58dff;
+    border: 1px solid #725bb1;
+    padding: 6px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.menu-button-calendar:hover {
+    background: linear-gradient(to right, #74488d, #b15b9b);
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(91, 97, 177, 0.4);
+}
+
+.menu-button-calendar-selected {
+    background: linear-gradient(to right, #74488d, #b15b9b);
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    color: white;
+    border: 1px solid #725bb1;
+    padding: 6px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(91, 97, 177, 0.4);
+}
+
 .menu-button-map {
     background: linear-gradient(to right, rgba(72, 79, 141, 0.3), rgba(91, 97, 177, 0.3));
     font-family: var(--font-secondary);
     font-weight: 600;
-    color: #8da4ff;
+    color: #6aa2f5;
     border: 1px solid #5b61b1;
     padding: 6px 14px;
     font-size: 15px;
@@ -151,7 +184,7 @@ html[data-theme='light'] .menu-button-active {
 }
 
 .menu-button-map:hover {
-    background: linear-gradient(to right, #484f8d, #5b61b1);
+    background: linear-gradient(to right, #48778d, #5b61b1);
     color: white;
     transform: translateY(-1px);
     box-shadow: 0 4px 15px rgba(91, 97, 177, 0.4);
