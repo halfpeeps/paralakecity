@@ -77,7 +77,7 @@
         const CUSTOM_EVENTS = [
             // Example: { y: 2026, m: 4, d: 24, title: "Map Release" },
             // Example recurring: { m: 9, d: 31, title: "Halloween Event" },
-            { m: 4, d: 24, title: "Map Rotation Release" },
+            { m: 4, d: 27, title: "Map Rotation Release" },
             { m: 5, d: 28, title: "Paralake V6 Anniversary" },
             { m: 6, d: 5, title: "Perpheads Anniversary" },
             { m: 9, d: 27, title: "Halloween Week" },
@@ -142,8 +142,8 @@
             for (let day = 1; day <= totalDays; day++) {
                 const cellDate = new Date(year, month, day);
                 
-                // no dates before may 24th 2026
-                if (year < 2026 || (year === 2026 && month < 4) || (year === 2026 && month === 4 && day < 24)) {
+                // no dates before may 27th 2026
+                if (year < 2026 || (year === 2026 && month < 4) || (year === 2026 && month === 4 && day < 27)) {
                     const emptyCell = document.createElement('div');
                     emptyCell.className = 'day-cell empty';
                     grid.appendChild(emptyCell);
