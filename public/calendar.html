@@ -74,7 +74,27 @@
         // calendar logic
         let currentDisplayDate = new Date();
 
+        const CUSTOM_EVENTS = [
+            // Example: { y: 2026, m: 4, d: 24, title: "Map Release" },
+            // Example recurring: { m: 9, d: 31, title: "Halloween Event" },
+            { m: 4, d: 24, title: "Map Rotation Release" },
+            { m: 5, d: 28, title: "Paralake V6 Anniversary" },
+            { m: 6, d: 5, title: "Perpheads Anniversary" },
+            { m: 9, d: 27, title: "Halloween Week" },
+            { m: 9, d: 28, title: "Halloween Week" },
+            { m: 9, d: 29, title: "Halloween Week" },
+            { m: 9, d: 30, title: "Halloween Week" },
+            { m: 9, d: 31, title: "Halloween Event" },
+            { m: 11, d: 25, title: "Christmas Day" },
+            { m: 11, d: 31, title: "New Years Event" },
+        ];
+
         const NIGHT_DAYS = [
+            { m: 6, d: 5 },   // July 5
+            { m: 9, d: 27 },  // Oct 27
+            { m: 9, d: 28 },  // Oct 28
+            { m: 9, d: 29 },  // Oct 29
+            { m: 9, d: 30 },  // Oct 30
             { m: 9, d: 31 },  // Oct 31
             { m: 10, d: 1 },  // Nov 1
             { m: 11, d: 31 }, // Dec 31
@@ -146,9 +166,19 @@
                     iconHtml = `<img src="images_excluded/icon_winter.png" class="day-icon" alt="Winter">`;
                 }
 
+                const dayEvents = CUSTOM_EVENTS.filter(e => 
+                    (e.y === undefined || e.y === year) && e.m === month && e.d === day
+                );
+                
+                let eventsHtml = "";
+                if (dayEvents.length > 0) {
+                    eventsHtml = dayEvents.map(e => `<div class="event-label">${e.title}</div>`).join('');
+                }
+
                 cell.innerHTML = `
                     <span class="day-number">${day}</span>
                     ${iconHtml}
+                    <div class="events-container">${eventsHtml}</div>
                     <span class="day-label">${label}</span>
                 `;
                 grid.appendChild(cell);
