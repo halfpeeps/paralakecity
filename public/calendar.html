@@ -15,14 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
 </head>
 <body>
-    <div id="mobile-warning">
-        <div class="mobile-warning-content">
-            <p>This site is not designed to work on mobile devices.</p>
-            <button onclick="closeMobileWarning()">Okay</button>
-        </div>
-    </div>
-    
-    <div id="header">
+<div id="header">
         <span id="header-title" style="line-height: 0.8; cursor: pointer;" onclick="location.href='index.html'">Paralake City</span>
         
         <div id="header-nav">
@@ -37,6 +30,7 @@
     </div>
 
     <div id="container">
+        <button class="mobile-sidebar-toggle" onclick="document.getElementById('sidebar').classList.toggle('show-sidebar')">☰ Show Map Rotation Info</button>
         <div id="sidebar">
             <div class="calendar-controls">
                 <h2 id="monthTitle">Month Year</h2>
@@ -203,8 +197,7 @@
         renderCalendar();
     </script>
 
-    <script src="scripts/mobileWarning.js"></script>
-    <script src="scripts/footer.js"></script>
+<script src="scripts/footer.js"></script>
     <script src="scripts/headerMenu.js"></script>
 </body>
 </html>

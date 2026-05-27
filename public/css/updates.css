@@ -201,3 +201,14 @@ html[data-theme='light'] .update-spoiler {
     outline: none;
     color: var(--color-text);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #container {
+        padding: 10px;
+        grid-template-columns: 1fr;
+    }
+    .bento-card {
+        width: 100%;
+    }
+}

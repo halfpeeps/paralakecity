@@ -265,3 +265,26 @@ html[data-theme='light'] .day-cell.map-winter {
     align-self: flex-end;
     font-family: var(--font-body, sans-serif);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #container {
+        display: flex !important; flex-direction: column !important;
+    }
+    #sidebar { flex: 1; min-height: 400px; }
+}
+
+@media (max-width: 768px) {
+    #calendar-main {
+        overflow-x: auto;
+    }
+    .days-grid, .weekdays {
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar { display: none !important; margin-bottom: 15px; }
+    #sidebar.show-sidebar { display: flex !important; flex-direction: column; width: 100%; min-height: 60vh; }
+    #calendar-main { margin-top: 15px; }
+}

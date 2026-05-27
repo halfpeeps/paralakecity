@@ -460,3 +460,33 @@ body.light-mode .tag-card li:hover {
   display: none;
   padding: 10px 14px;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #ui-container {
+        width: 90%;
+        max-width: 400px;
+        left: 5%;
+        right: 5%;
+    }
+    #back-button-container {
+        top: 10px;
+        left: 10px;
+    }
+    #search-box {
+        top: 60px;
+        left: 15px;
+        right: 15px;
+        width: calc(100% - 30px);
+        box-sizing: border-box;
+    }
+    #tag-directory {
+        top: 110px;
+    }
+    #location-info-panel {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        bottom: 10px;
+    }
+}

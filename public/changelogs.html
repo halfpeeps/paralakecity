@@ -21,14 +21,7 @@
         <div class="spinner"></div>
     </div>
     
-    <div id="mobile-warning">
-        <div class="mobile-warning-content">
-            <p>This site is not designed to work on mobile devices.</p>
-            <button onclick="closeMobileWarning()">Okay</button>
-        </div>
-    </div>
-
-    <div id="header">
+<div id="header">
         <span id="header-title" style="line-height: 0.8; cursor: pointer;" onclick="location.href='index.html'">Paralake City</span>
 
         <div id="header-nav">
@@ -43,6 +36,7 @@
     </div>
 
     <div id="container">
+        <button class="mobile-sidebar-toggle" onclick="document.getElementById('sidebar').classList.toggle('show-sidebar')">☰ Show Versions</button>
         <div id="sidebar">
             <div id="timeline-line"></div>
         </div>
@@ -80,8 +74,7 @@
             }, remainingTime);
         });
     </script>
-    <script src="scripts/mobileWarning.js"></script>
-    <script src="scripts/changelogs.js"></script>
+<script src="scripts/changelogs.js"></script>
     <script src="scripts/footer.js"></script>
     <!-- <script src="scripts/headerMenu.js"></script> -->
     <script src="scripts/splashscreen.js"></script>

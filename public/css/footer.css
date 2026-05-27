@@ -242,3 +242,20 @@ html[data-theme='light'] #footer {
     right: 10px;
     border-radius: 4px;
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .contact-content, .about-content {
+        width: 95%;
+        padding: 20px;
+    }
+    #footer {
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        height: auto;
+    }
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

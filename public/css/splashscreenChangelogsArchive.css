@@ -84,3 +84,12 @@ body {
     color: white;
     cursor: pointer;
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #splash-screen {
+        padding: 20px;
+    }
+    .splash-content {
+        width: 100%;
+    }
+}

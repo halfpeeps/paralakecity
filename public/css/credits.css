@@ -193,3 +193,54 @@ html[data-theme='light'] .credit-item-basedon {
     font-size: 50px;
     font-family: var(--font-secondary);
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #container {
+        padding: 10px;
+    }
+    .credits-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Mobile Specific Overrides */
+@media (max-width: 950px) {
+    body, #page-container {
+        overflow-x: hidden;
+    }
+    .credits-container { 
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box;
+        margin: 0 !important;
+    }
+    .credit-item, .credit-item-primary, .credit-item-basedon {
+        width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box;
+        min-height: 0 !important;
+        padding: 10px !important;
+        height: auto !important;
+    }
+    .credit-row {
+        display: flex !important;
+        flex-direction: row !important;
+        width: 100% !important;
+        box-sizing: border-box;
+        gap: 5px !important;
+    }
+    .credits-collumn {
+        min-width: 0 !important;
+        flex: 1;
+        padding: 5px !important;
+        box-sizing: border-box;
+    }
+    .credit-item-primary h1, .credit-item h1, .credit-item-basedon h1 { font-size: 1.2rem !important; margin: 5px 0; }
+    .credits-collumn h1 { font-size: 1rem !important; }
+    .credits-collumn h2 { font-size: 0.75rem !important; white-space: normal; word-break: break-word; }
+}
