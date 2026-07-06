@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anniversary Post</title>
+        <link rel="icon" type="image/x-icon" href="images_excluded/archive_icon_mono.png">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Jost:ital@0;1&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <style>
+            @property --angle {
+                syntax: '<angle>';
+                initial-value: 0deg;
+                inherits: false;
+            }
+
+            @property --text-angle {
+                syntax: '<angle>';
+                initial-value: 0deg;
+                inherits: false;
+            }
+
+            :root {
+                --grad-color-1: #d12d9c;
+                --grad-color-2: #f25f30;
+                --grad-color-3: #5ea2ef;
+            }
+
+            body, html {
+                margin: 0;
+                padding: 0;
+                min-height: 100vh; /* Changed from height: 100% to allow scrolling */
+                background-color: var(--color-bg);
+                color: var(--color-text);
+            }
+
+            body {
+                animation: spin-dots 10s linear infinite;
+                background-image: 
+                    radial-gradient(ellipse at top, transparent 0%, var(--color-bg) 85%),
+                    radial-gradient(circle, transparent 1px, var(--color-bg) 2.5px),
+                    conic-gradient(from var(--angle), 
+                        var(--grad-color-1), 
+                        var(--grad-color-2), 
+                        var(--grad-color-3), 
+                        var(--grad-color-1)
+                    );
+                background-size: 100% 100%, 20px 20px, 100% 100%;
+                background-position: center top, center center, center center;
+                background-attachment: fixed;
+            }
+
+            @keyframes spin-dots {
+                to { --angle: 360deg; }
+            }
+
+            @keyframes spin-text-gradient {
+                to { --text-angle: 360deg; }
+            }
+
+            .blog-post-container {
+                max-width: 1024px;
+                margin: 40px auto;
+                padding: 40px;
+                background: rgba(18, 18, 18, 0.85);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid var(--color-border-hover);
+                border-radius: var(--border-radius);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                color: var(--color-text);
+                font-family: var(--font-body);
+                line-height: 1.3;
+                max-height: 80vh;
+                overflow-y: auto
+            }
+
+            .blog-post-container h1 {
+                font-family: var(--font-secondary);
+                font-size: 3em;
+                font-weight: 700;
+                color: var(--color-text);
+                margin-top: 0;
+                margin-bottom: 10px;
+                text-align: center;
+                text-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            }
+            
+            .blog-post-container .subtitle {
+                font-family: var(--font-primary);
+                font-size: 1.2em;
+                color: var(--color-accent);
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+            .blog-post-container p {
+                margin-bottom: 1.5em;
+                font-size: 1.1em;
+                color: rgba(255, 255, 255, .95);
+            }
+
+            .blog-post-container img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 30px auto;
+                border-radius: var(--border-radius);
+                border: 1px solid var(--color-border-hover);
+            }
+
+            .blog-post-container h2 {
+                font-family: var(--font-secondary);
+                font-size:2em;
+                color: var(--color-accent);
+                margin-top: 40px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid var(--color-border-hover);
+                padding-bottom: 10px;
+            }
+            
+            .blog-post-container h3 {
+                font-family: var(--font-secondary);
+                font-size: 1.4em;
+                color: var(--color-accent);
+                margin-top: 30px;
+                margin-bottom: 15px;
+            }
+
+            .blog-post-container ul {
+                list-style-type: square;
+                padding-left: 20px;
+                margin-bottom: 1.5em;
+                color: rgba(255, 255, 255, .95);
+            }
+
+            .blog-post-container li {
+                margin-bottom: 0.5em;
+            }
+
+            @media (max-width: 768px) {
+                .blog-post-container {
+                    margin: 20px 10px;
+                    padding: 20px;
+                }
+                .blog-post-container h1 {
+                    font-size: 2.2em;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="blog-post-container">
+            <h1>PERPHEADS 13th Anniversary Event</h1>
+            <p class="subtitle">To celebrate 13 years of PERPHEADS, we have switched back to some old maps</p>
+            
+            <p>We are celebrating the 13th Anniversary of PERPHEADS! To celebrate we have switched back to some old maps. For some players, this will be the first time you experience what classic PERPHEADS would have felt like, and for others it will be a trip down memory lane.</p>
+            <p>As well as the map change, the Anniversary sweaters have been re-enabled and are available for purchase from the clothing store.  You can now also craft the Party Banners that were given out for the 10th Anniversary.  (The original banners that still exist have been converted into a rare item with a unique design).</p>
+            <h2>Things to note</h2>
+            <ul>
+                <li>Missions are working but maybe be somewhat broken.  This includes the tutorial, so help new players if you can</li>
+                <li>Bugs and issues are expected, though hopfully won't be game breaking.  If you run into any major issues or need help, please make a report or support ticket</li>
+                <li>Go easy on the staff today, many of them are experiencing this map for the first time too :)</li>
+            </ul>
+            
+            <h2>Have Fun!</h2>
+            <p>We expect everyone to follow the rules during the event, but at the same time, don't take things too seriously.  Look out for other players and don't abuse mechanics or law loopholes in ways that could spoil the experience for others.</p>
+            <p>We hope you enjoy the anniversary event, and thank you to everyone for 13 amazing years of this Awesome Garry's Mod Community!</p>
+        </div>
+    </body>
+</html>
