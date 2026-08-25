@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paralake 6.3</title>
+  <title>Paralake V6.3</title>
   <style>
     * {
       margin: 0;
@@ -15,33 +15,21 @@
       font-family: system-ui, sans-serif;
       color: #ffffff;
       overflow-x: hidden;
+
+      background: url('files/6-3.gif') no-repeat center center fixed;
+      background-size: cover;
     }
 
-    /* Fixed background video */
-    #background-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      z-index: -2;
-    }
-
-    /* Optional dark overlay to make foreground text readable */
     .overlay {
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
+      inset: 0;
       background: rgba(0, 0, 0, 0.4);
-      z-index: -1;
+      z-index: 1;
     }
 
-    /* Foreground content */
     .content {
       position: relative;
+      z-index: 2;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -62,12 +50,6 @@
   </style>
 </head>
 <body>
-
-  <!-- Background Video -->
-  <video autoplay muted loop playsinline id="background-video">
-    <source src="files/update3.mp4" type="video/mp4" />
-    Your browser does not support HTML5 video.
-  </video>
 
 </body>
 </html>
