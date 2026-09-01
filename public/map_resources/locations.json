@@ -668,7 +668,7 @@
     ],
     "primaryTag": "Ownable",
     "description": "A large property for you or your organization to front your operations or other businesses, located alongside Business Street.",
-    "image": "map_resources/images/bshops.jpg",
+    "image": "map_resources/images/bshops.png",
     "icon": "map_resources/icons/shop_ownable.png"
   },
   {
@@ -1234,5 +1234,53 @@
   "description": "Selling wallpapers for your stores.",
   "image": "map_resources/images/wallpaperworld.png",
   "icon": "map_resources/icons/vendor.png"
+},
+{
+  "name": "Kellco. Paper Factory",
+  "x": 648,
+  "y": 3833,
+  "tags": [
+    "Property", "Industrial"
+  ],
+  "primaryTag": "Property",
+  "description": "A Medium Sized Factory in the Slums area.",
+  "image": "map_resources/images/kellco.png",
+  "icon": "map_resources/icons/factory.png"
+},
+{
+  "name": "Sewer Entrance",
+  "x": 824,
+  "y": 3876,
+  "tags": [
+    "Sewers"
+  ],
+  "primaryTag": "Sewers",
+  "description": "Entrance to the sewers.",
+  "image": "map_resources/images/sewers01.png",
+  "icon": "map_resources/icons/valve.png"
+},
+{
+  "name": "Sewer Entrance",
+  "x": 1235,
+  "y": 3773,
+  "tags": [
+    "Sewers"
+  ],
+  "primaryTag": "Sewers",
+  "description": "Entrance to the sewers.",
+  "image": "map_resources/images/sewers02.png",
+  "icon": "map_resources/icons/valve.png"
+},
+{
+  "name": "Sewer Entrance",
+  "x": 562,
+  "y": 1118,
+  "tags": [
+    "Sewers"
+  ],
+  "primaryTag": "Sewers",
+  "description": "Entrance to the sewers.",
+  "image": "map_resources/images/sewers03.png",
+  "icon": "map_resources/icons/valve.png"
 }
 ]
