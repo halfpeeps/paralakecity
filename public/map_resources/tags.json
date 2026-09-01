@@ -20,6 +20,20 @@
     { "name": "Park", "color": "#0a8020" },
     { "name": "Water", "color": "#4068ad" },
 
-    { "name": "Ownable", "color": "#190ee8" }
+    { "name": "Ownable", "color": "#190ee8" },
+
+    { "name": "Speed Camera", "color": "#75a352" },
+    { "name": "30 MPH", "color": "#27ae60" },
+    { "name": "40 MPH", "color": "#2980b9" },
+    { "name": "50 MPH", "color": "#8e44ad" },
+    { "name": "80 MPH", "color": "#c0392b" },
+    { "name": "City District", "color": "#4a69bd" },
+    { "name": "Forest District", "color": "#38ada9" },
+    { "name": "Suburbs District", "color": "#78e08f" },
+    { "name": "Business District", "color": "#e55039" },
+    { "name": "Highway Anticlockwise", "color": "#fa983a" },
+    { "name": "Highway Clockwise", "color": "#eb2f06" },
+    { "name": "Suburbs / Forest Area", "color": "#60a3bc" },
+    { "name": "City / Suburbs / Forest Area", "color": "#6a89cc" }
   ]
   

@@ -395,7 +395,7 @@ body.light-mode .tag-card li:hover {
   box-shadow: 0 4px 20px rgba(0,0,0,0.4);
 }
 
-#overlay-info {
+#overlay-info, #speedcamera-info {
   position: absolute;
   top: 15%;
   left: 15px;
@@ -412,16 +412,20 @@ body.light-mode .tag-card li:hover {
   opacity: 1;
 }
 
-#overlay-info h3 {
+body.mugging-active #speedcamera-info {
+  top: calc(15% + 380px);
+}
+
+#overlay-info h3, #speedcamera-info h3 {
   font-family: var(--font-secondary);
   margin-top: 15px;
   margin-bottom: 5px;
 }
-#overlay-info h3:first-of-type {
+#overlay-info h3:first-of-type, #speedcamera-info h3:first-of-type {
   margin-top: 0;
 }
 
-#overlay-info p {
+#overlay-info p, #speedcamera-info p {
   font-size: 14px;
   margin-top: 0;
   line-height: 1.4;
@@ -429,13 +433,13 @@ body.light-mode .tag-card li:hover {
   opacity: 0.9;
 }
 
-#overlay-info.hidden {
+#overlay-info.hidden, #speedcamera-info.hidden {
   transform: translateX(-320px);
   opacity: 0;
   pointer-events: none;
 }
 
-#hide-overlay-info {
+#hide-overlay-info, #hide-speedcamera-info {
   background: transparent !important;
   border: none;
   font-size: 20px;
@@ -445,13 +449,13 @@ body.light-mode .tag-card li:hover {
   margin-top: -5px;
 }
 
-#hide-overlay-info:hover {
+#hide-overlay-info:hover, #hide-speedcamera-info:hover {
   color: rgb(221, 31, 31);
   transform: scale(1.1);
   border-color: transparent;
 }
 
-#overlay-info-toggle {
+#overlay-info-toggle, #speedcamera-info-toggle {
   position: absolute;
   top: 15%;
   left: 0;
@@ -459,6 +463,10 @@ body.light-mode .tag-card li:hover {
   z-index: 1004;
   display: none;
   padding: 10px 14px;
+}
+
+body.mugging-active #speedcamera-info-toggle {
+  top: calc(15% + 380px);
 }
 
 /* Mobile Responsiveness */
@@ -490,3 +498,4 @@ body.light-mode .tag-card li:hover {
         bottom: 10px;
     }
 }
+
