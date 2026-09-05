@@ -15,6 +15,24 @@
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
 </head>
 <body>
+    <!-- map rotation pop up -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-container">
+            <div class="card-glow"></div>
+            <button class="popup-close" onclick="closePopup()" aria-label="Close popup">&times;</button>
+            <div class="popup-content">
+                <div class="popup-badge">Notice</div>
+                <div class="popup-header">Map Rotation Disabled</div>
+                <div class="popup-text">
+                    Map rotation is currently disabled on the PERPHeads server.<br>The server is only running the Day map
+                </div>
+                <div class="popup-actions">
+                    <button class="popup-button" onclick="closePopup()">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <div id="header">
         <span id="header-title" style="line-height: 0.8; cursor: pointer;" onclick="location.href='index.html'">Paralake City</span>
         
@@ -45,6 +63,10 @@
                 <div class="legend-item"><span class="dot" style="background: var(--color-normal)"></span> Day</div>
                 <div class="legend-item"><span class="dot" style="background: var(--color-night)"></span> Night</div>
                 <div class="legend-item"><span class="dot" style="background: var(--color-winter)"></span> Winter</div>
+            </div>
+
+            <div class="sidebar-status-banner" onclick="openPopup()" title="Click to view notice">
+                <span>⚠️ Rotation currently disabled</span>
             </div>
             
             <div class="info-text">
@@ -197,7 +219,8 @@
         renderCalendar();
     </script>
 
-<script src="scripts/footer.js"></script>
+<script src="scripts/splashscreen.js"></script>
+    <script src="scripts/footer.js"></script>
     <script src="scripts/headerMenu.js"></script>
 </body>
 </html>
