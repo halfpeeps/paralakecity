@@ -6103,8 +6103,63 @@
             "description": ""
         }
     ],
-    "08Paralake-V6-Night": [],
-    "08Paralake-V6-Night/Promotional-Material": [
+    "08Paralake-V6.3": [],
+    "08Paralake-V6.3/Promotional-Material": [
+        {
+            "filename": "promo1.png",
+            "description": ""
+        },
+        {
+            "filename": "promo10.png",
+            "description": ""
+        },
+        {
+            "filename": "promo11.png",
+            "description": ""
+        },
+        {
+            "filename": "promo12.png",
+            "description": ""
+        },
+        {
+            "filename": "promo13.png",
+            "description": ""
+        },
+        {
+            "filename": "promo2.png",
+            "description": ""
+        },
+        {
+            "filename": "promo3.png",
+            "description": ""
+        },
+        {
+            "filename": "promo4.png",
+            "description": ""
+        },
+        {
+            "filename": "promo5.png",
+            "description": ""
+        },
+        {
+            "filename": "promo6.png",
+            "description": ""
+        },
+        {
+            "filename": "promo7.png",
+            "description": ""
+        },
+        {
+            "filename": "promo8.png",
+            "description": ""
+        },
+        {
+            "filename": "promo9.png",
+            "description": ""
+        }
+    ],
+    "20Paralake-V6-Night": [],
+    "20Paralake-V6-Night/Promotional-Material": [
         {
             "filename": "1.png",
             "description": ""
@@ -6170,8 +6225,8 @@
             "description": ""
         }
     ],
-    "09Paralake-V6-Winter": [],
-    "09Paralake-V6-Winter/Promotional-Material": [
+    "21Paralake-V6-Winter": [],
+    "21Paralake-V6-Winter/Promotional-Material": [
         {
             "filename": "1.jpg",
             "description": ""
@@ -6229,8 +6284,8 @@
             "description": ""
         }
     ],
-    "10In-Game-Art": [],
-    "10In-Game-Art/Branding": [
+    "22In-Game-Art": [],
+    "22In-Game-Art/Branding": [
         {
             "filename": "air-con.png",
             "description": ""
@@ -6508,7 +6563,7 @@
             "description": ""
         }
     ],
-    "10In-Game-Art/Misc": [
+    "22In-Game-Art/Misc": [
         {
             "filename": "Artboard 1.png",
             "description": ""
@@ -6698,7 +6753,7 @@
             "description": ""
         }
     ],
-    "10In-Game-Art/Parking-Signs": [
+    "22In-Game-Art/Parking-Signs": [
         {
             "filename": "bazaar.png",
             "description": ""
@@ -6740,7 +6795,7 @@
             "description": ""
         }
     ],
-    "10In-Game-Art/Police-Department": [
+    "22In-Game-Art/Police-Department": [
         {
             "filename": "pd_dirsign02a.png",
             "description": ""
@@ -6786,7 +6841,7 @@
             "description": ""
         }
     ],
-    "10In-Game-Art/Signs": [
+    "22In-Game-Art/Signs": [
         {
             "filename": "cheapmenu01.png",
             "description": ""
@@ -6904,7 +6959,7 @@
             "description": ""
         }
     ],
-    "10In-Game-Art/Wayfinding-Signs": [
+    "22In-Game-Art/Wayfinding-Signs": [
         {
             "filename": "autoshop.png",
             "description": ""
@@ -7162,8 +7217,8 @@
             "description": ""
         }
     ],
-    "15Promotional-Material": [],
-    "15Promotional-Material/Menu-Background-Pack": [
+    "23Promotional-Material": [],
+    "23Promotional-Material/Menu-Background-Pack": [
         {
             "filename": "01-(0-00-00-00).jpg",
             "description": ""
@@ -7233,7 +7288,7 @@
             "description": ""
         }
     ],
-    "15Promotional-Material/Promotional-Screenshots": [
+    "23Promotional-Material/Promotional-Screenshots": [
         {
             "filename": "10.jpg",
             "description": ""
@@ -7367,7 +7422,7 @@
             "description": ""
         }
     ],
-    "15Promotional-Material/Steam-Workshop": [
+    "23Promotional-Material/Steam-Workshop": [
         {
             "filename": "bank.jpg",
             "description": ""
@@ -7445,7 +7500,7 @@
             "description": ""
         }
     ],
-    "15Promotional-Material/Trailer-Screenshots": [
+    "23Promotional-Material/Trailer-Screenshots": [
         {
             "filename": "2_render_1.00_00_01_14.Still068.jpg",
             "description": ""
@@ -7755,7 +7810,7 @@
             "description": ""
         }
     ],
-    "15Promotional-Material/Video-Screenshots": [
+    "23Promotional-Material/Video-Screenshots": [
         {
             "filename": "info.jpg",
             "description": ""
@@ -7937,8 +7992,8 @@
             "description": ""
         }
     ],
-    "16Classic-Paralake-Maps": [],
-    "16Classic-Paralake-Maps/Paralake-V1": [
+    "24Classic-Paralake-Maps": [],
+    "24Classic-Paralake-Maps/Paralake-V1": [
         {
             "filename": "20250325225225_1.jpg",
             "description": ""
@@ -8040,7 +8095,7 @@
             "description": ""
         }
     ],
-    "16Classic-Paralake-Maps/Paralake-V2": [
+    "24Classic-Paralake-Maps/Paralake-V2": [
         {
             "filename": "20250325230149_1.jpg",
             "description": ""
@@ -8206,7 +8261,7 @@
             "description": ""
         }
     ],
-    "16Classic-Paralake-Maps/Paralake-V3": [
+    "24Classic-Paralake-Maps/Paralake-V3": [
         {
             "filename": "20250325230957_1.jpg",
             "description": ""
@@ -8268,7 +8323,7 @@
             "description": ""
         }
     ],
-    "16Classic-Paralake-Maps/Paralake-V4": [
+    "24Classic-Paralake-Maps/Paralake-V4": [
         {
             "filename": "20250325231406_1.jpg",
             "description": ""
@@ -8334,7 +8389,7 @@
             "description": ""
         }
     ],
-    "16Classic-Paralake-Maps/Paralake-V5": [
+    "24Classic-Paralake-Maps/Paralake-V5": [
         {
             "filename": "20250616041536_1.jpg",
             "description": ""
@@ -9380,8 +9435,8 @@
             "description": ""
         }
     ],
-    "20Misc": [],
-    "20Misc/Logos": [
+    "25Misc": [],
+    "25Misc/Logos": [
         {
             "filename": "Adobe_Premiere_Pro_LIqUKNug77.png",
             "description": ""
@@ -9547,7 +9602,7 @@
             "description": ""
         }
     ],
-    "20Misc/Map-Location-Images": [
+    "25Misc/Map-Location-Images": [
         {
             "filename": "autoshop.jpg",
             "description": ""
@@ -9981,7 +10036,7 @@
             "description": ""
         }
     ],
-    "20Misc/New-Bank-Property-Images": [
+    "25Misc/New-Bank-Property-Images": [
         {
             "filename": "barn.jpg",
             "description": ""
@@ -10087,7 +10142,7 @@
             "description": ""
         }
     ],
-    "20Misc/Old-Bank-Property-Images": [
+    "25Misc/Old-Bank-Property-Images": [
         {
             "filename": "barn.png",
             "description": ""
@@ -10213,7 +10268,7 @@
             "description": ""
         }
     ],
-    "20Misc/Playtesting": [
+    "25Misc/Playtesting": [
         {
             "filename": "agree.png",
             "description": ""
@@ -10327,7 +10382,7 @@
             "description": ""
         }
     ],
-    "20Misc/Thumbnails": [
+    "25Misc/Thumbnails": [
         {
             "filename": "rp_paralake_city_v6_launch.png",
             "description": ""

@@ -226,8 +226,8 @@ html[data-theme='light'] .download-button:hover {
 }
 
 .download-link-steam {
-    border-color: rgba(26, 159, 255, 0.5);
-    color: #1A9FFF;
+    border-color: rgba(84, 184, 255, 0.925);
+    color: #61bcfd;
 }
 
 .download-link-steam:hover {

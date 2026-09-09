@@ -1,0 +1,2690 @@
+[
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1064,
+    "y": 3314,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of PD (Main Street -> City Gas Station) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      72,
+      0
+    ],
+    "gmodVector": [
+      -7754,
+      10642,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 987,
+    "y": 3082,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of PD (City Gas Station -> Main Street (Between 30MPH sign and tree)) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -114,
+      0
+    ],
+    "gmodVector": [
+      -8355,
+      8766,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1064,
+    "y": 2689,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of City Hall (City Garage -> PD ) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      70,
+      0
+    ],
+    "gmodVector": [
+      -7750,
+      5582,
+      1317
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 990,
+    "y": 2788,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of City Hall (PD -> City Garage) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -110,
+      0
+    ],
+    "gmodVector": [
+      -8333,
+      6379,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 990,
+    "y": 2482,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of Bank (CH -> Bank) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -121,
+      0
+    ],
+    "gmodVector": [
+      -8331,
+      3906,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1494,
+    "y": 2531,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Front of Office (Ficklestein Way -> Saint Rock Street) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -11,
+      0
+    ],
+    "gmodVector": [
+      -4355,
+      4300,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1646,
+    "y": 2379,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to Office (Saint Rock Street -> Sunset Avenue) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -105,
+      0
+    ],
+    "gmodVector": [
+      -3156,
+      3070,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1716,
+    "y": 2720,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Broadwalk (Saint Rock Street -> Oak Hill/Station Hill) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      76,
+      0
+    ],
+    "gmodVector": [
+      -2603,
+      5831,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1643,
+    "y": 2848,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to Poisson (Oak Hill/Station Hill -> Saint Rock Street) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -116,
+      0
+    ],
+    "gmodVector": [
+      -3181,
+      6872,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1716,
+    "y": 3221,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Broadwalk, at the pedestrian crossing (Saint Rock Street - Creed Street intersection) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      62,
+      0
+    ],
+    "gmodVector": [
+      -2602,
+      9890,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1191,
+    "y": 3212,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Hospital (Storage -> PD) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      -1,
+      161,
+      0
+    ],
+    "gmodVector": [
+      -6748,
+      9816,
+      1317
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1480,
+    "y": 3142,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Hospital (Storage -> Broadwalk) - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -14,
+      0
+    ],
+    "gmodVector": [
+      -4464,
+      9248,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1167,
+    "y": 3460,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Gas Station (Towards Slums) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      157,
+      0
+    ],
+    "gmodVector": [
+      -6938,
+      11828,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 599,
+    "y": 3462,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to Taxi Depot (PD -> Slums) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      3,
+      162,
+      0
+    ],
+    "gmodVector": [
+      -11419,
+      11839,
+      1177
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 801,
+    "y": 3392,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to PD (Slums->PD) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -3,
+      -25,
+      0
+    ],
+    "gmodVector": [
+      -9829,
+      11272,
+      1273
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1184,
+    "y": 3392,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to City Gas Station (PD -> FD) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -29,
+      0
+    ],
+    "gmodVector": [
+      -6803,
+      11271,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1484,
+    "y": 3391,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to FD (Station Hill -> Oak Hill) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -23,
+      0
+    ],
+    "gmodVector": [
+      -4437,
+      11266,
+      1316
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 776,
+    "y": 4016,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "End of Shady Tunnel -> Slums - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      154,
+      0
+    ],
+    "gmodVector": [
+      -10021,
+      16330,
+      1147
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 809,
+    "y": 3947,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Start of Shady Tunnel -> Highway - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -33,
+      0
+    ],
+    "gmodVector": [
+      -9761,
+      15764,
+      1152
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 247,
+    "y": 4015,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Near Slums (Gast Pass -> West Street) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      154,
+      0
+    ],
+    "gmodVector": [
+      -14198,
+      16316,
+      1147
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 205,
+    "y": 3859,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Near Slums (West Street -> Gast Pass) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      82,
+      0
+    ],
+    "gmodVector": [
+      -14534,
+      15053,
+      1152
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 134,
+    "y": 3405,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside of Tiny Electronics - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -108,
+      0
+    ],
+    "gmodVector": [
+      -15093,
+      11375,
+      1152
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 206,
+    "y": 3415,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside of Slums Warehouse - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      63,
+      0
+    ],
+    "gmodVector": [
+      -14524,
+      11463,
+      1152
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 389,
+    "y": 2903,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to the Homeless camp (Stalburg -> Slums) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      152,
+      0
+    ],
+    "gmodVector": [
+      -13079,
+      7317,
+      1036
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 719,
+    "y": 2831,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Stalburg Tunnel entrance (Stalburg -> Regals) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -17,
+      0
+    ],
+    "gmodVector": [
+      -10476,
+      6734,
+      1036
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 919,
+    "y": 2559,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Inside Stalburg (Regals -> Stalburg) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      60,
+      0
+    ],
+    "gmodVector": [
+      -8894,
+      4531,
+      1040
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1433,
+    "y": 2021,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "City District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Beach (Regals -> Office) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -16,
+      0
+    ],
+    "gmodVector": [
+      -4840,
+      172,
+      1040
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2015,
+    "y": 2849,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Oak Hill -> Love Lane #1 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -3,
+      -119,
+      0
+    ],
+    "gmodVector": [
+      -243,
+      6877,
+      1457
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2015,
+    "y": 2386,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Oak Hill -> Love Lane #2 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -2,
+      -123,
+      0
+    ],
+    "gmodVector": [
+      -244,
+      3128,
+      1623
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2463,
+    "y": 1800,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Oak Hill -> Love Lane #3 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      0,
+      -53,
+      0
+    ],
+    "gmodVector": [
+      3295,
+      -1616,
+      1698
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2268,
+    "y": 1988,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Love Lane -> Oak Hill #1 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -1,
+      115,
+      0
+    ],
+    "gmodVector": [
+      1754,
+      -99,
+      1627
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2087,
+    "y": 2353,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Love Lane -> Oak Hill (Brick Wall) #2 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -1,
+      78,
+      0
+    ],
+    "gmodVector": [
+      330,
+      2861,
+      1627
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2639,
+    "y": 2198,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Substation (Subs -> Oak Hill) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -4,
+      -124,
+      0
+    ],
+    "gmodVector": [
+      4690,
+      1608,
+      1718
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2720,
+    "y": 2120,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "City / Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Next to Substation (Oak Hill -> Subs) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -4,
+      62,
+      0
+    ],
+    "gmodVector": [
+      5323,
+      975,
+      1728
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2747,
+    "y": 1421,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Forest Drive -> Rest Stop #1 (Start of Forest District) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -9,
+      -104,
+      0
+    ],
+    "gmodVector": [
+      5542,
+      -4685,
+      1957
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2969,
+    "y": 1241,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Forest Drive -> Rest Stop #2 (Near Comms Outpost) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -3,
+      -41,
+      0
+    ],
+    "gmodVector": [
+      7290,
+      -6145,
+      2120
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 3035,
+    "y": 956,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Forest Drive -> Rest Stop #3 (At the logs) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -2,
+      -107,
+      0
+    ],
+    "gmodVector": [
+      7817,
+      -8454,
+      2410
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2885,
+    "y": 730,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Rest Stop -> Clementine Way #1 (Mirror) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -11,
+      158,
+      0
+    ],
+    "gmodVector": [
+      6625,
+      -10282,
+      2420
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2769,
+    "y": 1048,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Rest Stop -> Clementine Way #2 (Lookout point) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      2,
+      83,
+      0
+    ],
+    "gmodVector": [
+      5714,
+      -7704,
+      2301
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2296,
+    "y": 491,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Lookout point -> Business #1 (Behind the fence) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -4,
+      -129,
+      0
+    ],
+    "gmodVector": [
+      1980,
+      -12219,
+      1973
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2174,
+    "y": 821,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Lookout point -> Business #2 (End of Forest District) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      3,
+      71,
+      0
+    ],
+    "gmodVector": [
+      1016,
+      -9547,
+      1377
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2368,
+    "y": 698,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Clemetine Way -> Lookout Point - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -3,
+      74,
+      0
+    ],
+    "gmodVector": [
+      2547,
+      -10545,
+      2049
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2713,
+    "y": 939,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Lookout Point -> Rest Stop - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -9,
+      -115,
+      0
+    ],
+    "gmodVector": [
+      5270,
+      -8588,
+      2366
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 3131,
+    "y": 1032,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Rest Stop -> Forest Drive #1 - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      -5,
+      27,
+      0
+    ],
+    "gmodVector": [
+      8574,
+      -7835,
+      2379
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 3367,
+    "y": 1108,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Rest Stop -> Forest Drive #2 (Bend) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      2,
+      22,
+      0
+    ],
+    "gmodVector": [
+      10433,
+      -7220,
+      2305
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2863,
+    "y": 1376,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Rest Stop -> Forest Drive #3 (Near Comms Outpost) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      4,
+      127,
+      0
+    ],
+    "gmodVector": [
+      6454,
+      -5048,
+      2008
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 2762,
+    "y": 1617,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Forest Drive -> Love Lane (End of Forest District) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      0,
+      77,
+      0
+    ],
+    "gmodVector": [
+      5655,
+      -3098,
+      1839
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 3546,
+    "y": 2352,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Cornfield Road -> Church (Next to Church) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -106,
+      0
+    ],
+    "gmodVector": [
+      11846,
+      2849,
+      1658
+    ]
+  },
+  {
+    "name": "Speed Camera (50 MPH)",
+    "x": 3615,
+    "y": 2195,
+    "tags": [
+      "Speed Camera",
+      "50 MPH",
+      "Forest District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Church -> Cornfield Road (Next to Church) - Speed limit: 50 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 50,
+    "angle": [
+      4,
+      53,
+      0
+    ],
+    "gmodVector": [
+      12390,
+      1579,
+      1662
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 2991,
+    "y": 2708,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Suburbs District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs -> Highway Junction - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -32,
+      0
+    ],
+    "gmodVector": [
+      7463,
+      5731,
+      1658
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 2880,
+    "y": 2779,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Suburbs District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Highway Junction -> Suburbs - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      155,
+      0
+    ],
+    "gmodVector": [
+      6588,
+      6310,
+      1643
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 2717,
+    "y": 3141,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "Suburbs District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside of Small Subs House 1 -> Culdesac - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      71,
+      0
+    ],
+    "gmodVector": [
+      5300,
+      9237,
+      1634
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 2309,
+    "y": 3070,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "Suburbs District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Between Small Subs House 3 -> Small Subs House 4 - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      68,
+      0
+    ],
+    "gmodVector": [
+      2081,
+      8667,
+      1634
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 2236,
+    "y": 2889,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "Suburbs District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside Small Subs House 3 -> Roundabout - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -124,
+      0
+    ],
+    "gmodVector": [
+      1504,
+      7201,
+      1634
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 3383,
+    "y": 2707,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "At Forest District Sign (Subs -> Farm) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -24,
+      0
+    ],
+    "gmodVector": [
+      10564,
+      5729,
+      1658
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 3365,
+    "y": 2781,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Suburbs / Forest Area"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Farm -> Highway Junction - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      152,
+      0
+    ],
+    "gmodVector": [
+      10418,
+      6322,
+      1658
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 2155,
+    "y": 3775,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs -> City #1 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -4,
+      -151,
+      0
+    ],
+    "gmodVector": [
+      861,
+      14374,
+      1546
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 1501,
+    "y": 3907,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs -> City Offramp - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      4,
+      153,
+      0
+    ],
+    "gmodVector": [
+      -4299,
+      15442,
+      1374
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 876,
+    "y": 3846,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Onramp -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -3,
+      -148,
+      0
+    ],
+    "gmodVector": [
+      -9232,
+      14951,
+      1543
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 493,
+    "y": 3683,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Bend -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -105,
+      0
+    ],
+    "gmodVector": [
+      -12257,
+      13630,
+      1566
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 388,
+    "y": 3380,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "After City Bend -> Business #1 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -57,
+      0
+    ],
+    "gmodVector": [
+      -13090,
+      11177,
+      1542
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 388,
+    "y": 2752,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "After City Bend -> Business #2 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      1,
+      -73,
+      0
+    ],
+    "gmodVector": [
+      -13091,
+      6092,
+      1448
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 317,
+    "y": 1931,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Bridge Start -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      1,
+      -118,
+      0
+    ],
+    "gmodVector": [
+      -13646,
+      -560,
+      1346
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 314,
+    "y": 862,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Offramp -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      3,
+      -31,
+      0
+    ],
+    "gmodVector": [
+      -13670,
+      -9213,
+      1024
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 390,
+    "y": 1066,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Junction -> Parker Tunnel - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -54,
+      0
+    ],
+    "gmodVector": [
+      -13073,
+      -7559,
+      1324
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 315,
+    "y": 393,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Onramp -> Parker Tunnel - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -37,
+      0
+    ],
+    "gmodVector": [
+      -13664,
+      -13010,
+      1312
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 1564,
+    "y": 69,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Entrance -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      42,
+      0
+    ],
+    "gmodVector": [
+      -3806,
+      -15634,
+      1366
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 2900,
+    "y": 72,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Bend -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -2,
+      61,
+      0
+    ],
+    "gmodVector": [
+      6746,
+      -15607,
+      1367
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3171,
+    "y": 1360,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Inside -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      119,
+      0
+    ],
+    "gmodVector": [
+      8884,
+      -5184,
+      1360
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3170,
+    "y": 1893,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Exit -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      118,
+      0
+    ],
+    "gmodVector": [
+      8878,
+      -861,
+      1376
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3170,
+    "y": 2722,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs Junction -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      124,
+      0
+    ],
+    "gmodVector": [
+      8878,
+      5847,
+      1404
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3299,
+    "y": 3156,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs Offramp -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -1,
+      57,
+      0
+    ],
+    "gmodVector": [
+      9898,
+      9364,
+      1467
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3170,
+    "y": 3329,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Before Suburbs Bend -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      122,
+      0
+    ],
+    "gmodVector": [
+      8878,
+      10763,
+      1447
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3125,
+    "y": 3602,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs Bend -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -2,
+      155,
+      0
+    ],
+    "gmodVector": [
+      8527,
+      12973,
+      1457
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 2475,
+    "y": 3775,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Anticlockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs City -> City #2 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -1,
+      -138,
+      0
+    ],
+    "gmodVector": [
+      3393,
+      14374,
+      1503
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 2323,
+    "y": 3766,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City -> Suburbs #1 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      33,
+      0
+    ],
+    "gmodVector": [
+      2188,
+      14300,
+      1523
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 2820,
+    "y": 3766,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City -> Before Suburbs Bend - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      1,
+      35,
+      0
+    ],
+    "gmodVector": [
+      6113,
+      14300,
+      1458
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3083,
+    "y": 3648,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City -> Suburbs Bend - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -4,
+      -17,
+      0
+    ],
+    "gmodVector": [
+      8196,
+      13344,
+      1457
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3158,
+    "y": 3445,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City -> After Suburbs Bend - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -34,
+      0
+    ],
+    "gmodVector": [
+      8781,
+      11699,
+      1446
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3012,
+    "y": 2900,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs Onramp -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -4,
+      -115,
+      0
+    ],
+    "gmodVector": [
+      7631,
+      7293,
+      1601
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3083,
+    "y": 2753,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Suburbs Junction -> Parker Tunnel - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -134,
+      0
+    ],
+    "gmodVector": [
+      8195,
+      6099,
+      1380
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3157,
+    "y": 1867,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Entrance -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -51,
+      0
+    ],
+    "gmodVector": [
+      8778,
+      -1079,
+      1376
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3156,
+    "y": 1357,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Inside #1 -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -49,
+      0
+    ],
+    "gmodVector": [
+      8766,
+      -5202,
+      1360
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3156,
+    "y": 801,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Inside #2 -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -62,
+      0
+    ],
+    "gmodVector": [
+      8772,
+      -9711,
+      1360
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 3084,
+    "y": 194,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parket Tunnel Bend -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      -83,
+      0
+    ],
+    "gmodVector": [
+      8203,
+      -14619,
+      1368
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 1553,
+    "y": 145,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Parker Tunnel Exit -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      1,
+      144,
+      0
+    ],
+    "gmodVector": [
+      -3889,
+      -15017,
+      1378
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 762,
+    "y": 148,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Bend -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      162,
+      0
+    ],
+    "gmodVector": [
+      -10136,
+      -14998,
+      1344
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 531,
+    "y": 391,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Offramp Top -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      60,
+      0
+    ],
+    "gmodVector": [
+      -11957,
+      -13029,
+      1344
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 470,
+    "y": 780,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Offramp Bottom -> Business - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      133,
+      0
+    ],
+    "gmodVector": [
+      -12440,
+      -9876,
+      1019
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 471,
+    "y": 1269,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Onramp -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      144,
+      0
+    ],
+    "gmodVector": [
+      -12436,
+      -5920,
+      1312
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 397,
+    "y": 1056,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business Junction -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -3,
+      124,
+      0
+    ],
+    "gmodVector": [
+      -13017,
+      -7645,
+      1324
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 398,
+    "y": 1916,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business -> City #1 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      124,
+      0
+    ],
+    "gmodVector": [
+      -13013,
+      -675,
+      1336
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 399,
+    "y": 2751,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business -> City #2 - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      -1,
+      128,
+      0
+    ],
+    "gmodVector": [
+      -13004,
+      6084,
+      1448
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 398,
+    "y": 3381,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Bend Start -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      118,
+      0
+    ],
+    "gmodVector": [
+      -13008,
+      11181,
+      1542
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 472,
+    "y": 3649,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Bend -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      99,
+      0
+    ],
+    "gmodVector": [
+      -12428,
+      13358,
+      1566
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 738,
+    "y": 3766,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Bend After -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      45,
+      0
+    ],
+    "gmodVector": [
+      -10323,
+      14300,
+      1552
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 1297,
+    "y": 3695,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Offramp -> City - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      5,
+      37,
+      0
+    ],
+    "gmodVector": [
+      -5912,
+      13726,
+      1253
+    ]
+  },
+  {
+    "name": "Speed Camera (80 MPH)",
+    "x": 1803,
+    "y": 3694,
+    "tags": [
+      "Speed Camera",
+      "80 MPH",
+      "Highway Clockwise"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "City Onramp -> Suburbs - Speed limit: 80 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 80,
+    "angle": [
+      0,
+      43,
+      0
+    ],
+    "gmodVector": [
+      -1919,
+      13715,
+      1542
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 541,
+    "y": 784,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Under Business District Sign -> Roundabout - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -3,
+      -34,
+      0
+    ],
+    "gmodVector": [
+      -11881,
+      -9848,
+      1016
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 541,
+    "y": 849,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business -> Highway Junction - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      168,
+      0
+    ],
+    "gmodVector": [
+      -11881,
+      -9315,
+      1016
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1614,
+    "y": 786,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business St. -> Elrond Road - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -13,
+      0
+    ],
+    "gmodVector": [
+      -3404,
+      -9828,
+      1056
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1245,
+    "y": 851,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business St. -> Rounabout - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      154,
+      0
+    ],
+    "gmodVector": [
+      -6321,
+      -9302,
+      1064
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 1293,
+    "y": 315,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Car Dealer -> Elrond Road - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -36,
+      0
+    ],
+    "gmodVector": [
+      -5941,
+      -13641,
+      1320
+    ]
+  },
+  {
+    "name": "Speed Camera (30 MPH)",
+    "x": 2016,
+    "y": 978,
+    "tags": [
+      "Speed Camera",
+      "30 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "One way street - Speed limit: 30 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 30,
+    "angle": [
+      0,
+      -24,
+      0
+    ],
+    "gmodVector": [
+      -236,
+      -8278,
+      1320
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1573,
+    "y": 1299,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Harbor Road (At the sign) -> Tidals - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      162,
+      0
+    ],
+    "gmodVector": [
+      -3734,
+      -5672,
+      1064
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1274,
+    "y": 1299,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside of PPs -> Tidals - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      168,
+      0
+    ],
+    "gmodVector": [
+      -6092,
+      -5675,
+      1064
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1401,
+    "y": 1229,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Mills Street - Harbor Road intersection - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      -16,
+      0
+    ],
+    "gmodVector": [
+      -5092,
+      -6244,
+      1064
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1758,
+    "y": 1231,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "PPS -> Harbor Road - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -4,
+      -18,
+      0
+    ],
+    "gmodVector": [
+      -2273,
+      -6228,
+      1138
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 981,
+    "y": 1299,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Outside Tidals (At 40MPH sign) - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      0,
+      161,
+      0
+    ],
+    "gmodVector": [
+      -8408,
+      -5672,
+      1064
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1064,
+    "y": 810,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Highway Junction -> Roundabout - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -4,
+      9,
+      0
+    ],
+    "gmodVector": [
+      -7747,
+      -9634,
+      1076
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1143,
+    "y": 822,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Business St. -> Rounadbout - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -3,
+      -173,
+      0
+    ],
+    "gmodVector": [
+      -7124,
+      -9536,
+      1077
+    ]
+  },
+  {
+    "name": "Speed Camera (40 MPH)",
+    "x": 1096,
+    "y": 852,
+    "tags": [
+      "Speed Camera",
+      "40 MPH",
+      "Business District"
+    ],
+    "primaryTag": "Speed Camera",
+    "description": "Tidals -> Roundabout - Speed limit: 40 MPH.",
+    "icon": "map_resources/icons/speedcamera.png",
+    "speedLimit": 40,
+    "angle": [
+      -5,
+      -77,
+      0
+    ],
+    "gmodVector": [
+      -7498,
+      -9295,
+      1076
+    ]
+  }
+]

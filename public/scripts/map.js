@@ -2,6 +2,7 @@ const EDITOR_MODE = false;
 const bounds = [[0, 0], [0, 0]];
 const tagColors = {};
 const markers = [];
+const speedCameraMarkers = [];
 
 const baseMap = L.imageOverlay('map_resources/map_dark.png', bounds);
 const baseMapLight = L.imageOverlay('map_resources/map_light.png', bounds);
@@ -9,6 +10,7 @@ const satelliteMap = L.imageOverlay('map_resources/map_sat.png', bounds);
 const streetNames = L.imageOverlay('map_resources/streetnames.png', bounds);
 const propertyBounds = L.imageOverlay('map_resources/property_bounds.png', bounds);
 const muggingMap = L.imageOverlay('map_resources/map_mugging.png', bounds);
+const speedCameraLayer = L.layerGroup();
 
 const map = L.map('map', {
   crs: L.CRS.Simple,
@@ -29,8 +31,10 @@ const baseLayers = {
 const overlayLayers = {
   "Street Names": streetNames,
   "Property Boundaries": propertyBounds,
-  "Mugging Map": muggingMap
+  "Mugging Map": muggingMap,
+  "Speed Cameras": speedCameraLayer
 };
+
 
 const muggingToggleButton = L.control({ position: 'bottomright' });
 muggingToggleButton.onAdd = function(map) {
@@ -63,6 +67,13 @@ muggingToggleButton.onAdd = function(map) {
       muggingMap.addTo(map);
       button.style.opacity = '1';
     }
+  });
+
+  map.on('overlayadd', (e) => {
+    if (e.layer === muggingMap) button.style.opacity = '1';
+  });
+  map.on('overlayremove', (e) => {
+    if (e.layer === muggingMap) button.style.opacity = '0.5';
   });
 
   button.style.opacity = '0.5';
@@ -136,15 +147,21 @@ function showSidebar(location) {
   document.getElementById('location-name').textContent = location.name;
   const tagContainer = document.getElementById('location-tags');
   tagContainer.innerHTML = '';
-  location.tags.forEach(tag => {
+  (location.tags || []).forEach(tag => {
     const span = document.createElement('span');
     span.textContent = tag;
-    span.style.backgroundColor = tagColors[tag] || 'gray';
+    span.style.backgroundColor = tagColors[tag] || '#555';
     tagContainer.appendChild(span);
   });
 
-  document.getElementById('location-description').textContent = location.description;
-  document.getElementById('location-image').src = location.image;
+  document.getElementById('location-description').textContent = location.description || '';
+  const imgElem = document.getElementById('location-image');
+  if (location.image) {
+    imgElem.src = location.image;
+    imgElem.style.display = 'block';
+  } else {
+    imgElem.style.display = 'none';
+  }
   document.getElementById('sidebar').classList.add('active');
 }
 
@@ -157,10 +174,25 @@ document.getElementById('search-box').addEventListener('input', () => {
   markers.forEach(marker => {
     const { name, tags, description } = marker.metaData;
     const match = name.toLowerCase().includes(query) ||
-      tags.some(t => t.toLowerCase().includes(query)) ||
+      (tags && tags.some(t => t.toLowerCase().includes(query))) ||
       (description && description.toLowerCase().includes(query));
 
     marker[match ? 'addTo' : 'removeFrom'](map);
+  });
+
+  speedCameraMarkers.forEach(marker => {
+    const { name, tags, description } = marker.metaData;
+    const match = name.toLowerCase().includes(query) ||
+      (tags && tags.some(t => t.toLowerCase().includes(query))) ||
+      (description && description.toLowerCase().includes(query));
+
+    if (match) {
+      if (map.hasLayer(speedCameraLayer) && !speedCameraLayer.hasLayer(marker)) {
+        speedCameraLayer.addLayer(marker);
+      }
+    } else {
+      speedCameraLayer.removeLayer(marker);
+    }
   });
 });
 
@@ -179,41 +211,91 @@ mapImage.onload = () => {
     propertyBounds.addTo(map);
   } else if (overlayKey === 'mugging') {
     muggingMap.addTo(map);
-    document.getElementById('overlay-info').style.display = 'block';
+  } else if (overlayKey === 'speedcameras' || overlayKey === 'cameras' || overlayKey === 'speed') {
+    speedCameraLayer.addTo(map);
   }
 
-  muggingMap.on('add', () => document.getElementById('overlay-info').style.display = 'block');
+  muggingMap.on('add', () => {
+    document.body.classList.add('mugging-active');
+    const overlayInfo = document.getElementById('overlay-info');
+    if (overlayInfo) overlayInfo.style.display = 'block';
+  });
   muggingMap.on('remove', () => {
-    document.getElementById('overlay-info').classList.remove('hidden');
-    document.getElementById('overlay-info').style.display = 'none';
-    document.getElementById('overlay-info-toggle').style.display = 'none';
+    document.body.classList.remove('mugging-active');
+    const overlayInfo = document.getElementById('overlay-info');
+    const overlayToggle = document.getElementById('overlay-info-toggle');
+    if (overlayInfo) {
+      overlayInfo.classList.remove('hidden');
+      overlayInfo.style.display = 'none';
+    }
+    if (overlayToggle) overlayToggle.style.display = 'none';
   });
 
-  document.getElementById('hide-overlay-info').addEventListener('click', () => {
-    document.getElementById('overlay-info').classList.add('hidden');
-    document.getElementById('overlay-info-toggle').style.display = 'block';
+  const hideOverlayBtn = document.getElementById('hide-overlay-info');
+  if (hideOverlayBtn) {
+    hideOverlayBtn.addEventListener('click', () => {
+      document.getElementById('overlay-info').classList.add('hidden');
+      document.getElementById('overlay-info-toggle').style.display = 'block';
+    });
+  }
+
+  const overlayToggleBtn = document.getElementById('overlay-info-toggle');
+  if (overlayToggleBtn) {
+    overlayToggleBtn.addEventListener('click', () => {
+      document.getElementById('overlay-info').classList.remove('hidden');
+      document.getElementById('overlay-info-toggle').style.display = 'none';
+    });
+  }
+
+  speedCameraLayer.on('add', () => {
+    const speedInfo = document.getElementById('speedcamera-info');
+    if (speedInfo) speedInfo.style.display = 'block';
+  });
+  speedCameraLayer.on('remove', () => {
+    const speedInfo = document.getElementById('speedcamera-info');
+    const speedToggle = document.getElementById('speedcamera-info-toggle');
+    if (speedInfo) {
+      speedInfo.classList.remove('hidden');
+      speedInfo.style.display = 'none';
+    }
+    if (speedToggle) speedToggle.style.display = 'none';
   });
 
-  document.getElementById('overlay-info-toggle').addEventListener('click', () => {
-    document.getElementById('overlay-info').classList.remove('hidden');
-    document.getElementById('overlay-info-toggle').style.display = 'none';
-  });
+  const hideSpeedBtn = document.getElementById('hide-speedcamera-info');
+  if (hideSpeedBtn) {
+    hideSpeedBtn.addEventListener('click', () => {
+      document.getElementById('speedcamera-info').classList.add('hidden');
+      document.getElementById('speedcamera-info-toggle').style.display = 'block';
+    });
+  }
+
+  const speedToggleBtn = document.getElementById('speedcamera-info-toggle');
+  if (speedToggleBtn) {
+    speedToggleBtn.addEventListener('click', () => {
+      document.getElementById('speedcamera-info').classList.remove('hidden');
+      document.getElementById('speedcamera-info-toggle').style.display = 'none';
+    });
+  }
 
   loadMapData();
 };
 
-//get tags
+//get tags & data
 function loadMapData() {
   Promise.all([
-    fetch('/map_resources/locations.json').then(res => res.json()),
-    fetch('/map_resources/tags.json').then(res => res.json())
-  ]).then(([locations, tags]) => {
+    fetch('map_resources/locations.json').then(res => res.json()),
+    fetch('map_resources/tags.json').then(res => res.json()),
+    fetch('map_resources/speed_cameras.json').then(res => res.json()).catch(() => [])
+  ]).then(([locations, tags, speedCameras]) => {
     tags.forEach(t => tagColors[t.name] = t.color);
     setupTagFilter(tags, locations);
     createMarkers(locations);
     setupTagDirectory(tags, locations);
+    if (speedCameras && speedCameras.length > 0) {
+      createSpeedCameraMarkers(speedCameras);
+    }
     if (EDITOR_MODE) initEditorMode();
-  });
+  }).catch(err => console.error("Error loading map data:", err));
 }
 
 //filter
@@ -320,6 +402,20 @@ function createMarkers(locations) {
         });
       }
     });
+
+    speedCameraMarkers.forEach(marker => {
+      const data = marker.metaData;
+      if (data.icon && data.primaryTag) {
+        colorizeIcon(data.icon, tagColors[data.primaryTag] || 'gray', scale, tintedSrc => {
+          const size = 34 * scale;
+          marker.setIcon(L.icon({
+            iconUrl: tintedSrc,
+            iconSize: [size, size],
+            iconAnchor: [size / 2, size / 2]
+          }));
+        });
+      }
+    });
   });
 }
 
@@ -333,6 +429,41 @@ function addMarker(location, icon) {
   marker.metaTags = location.tags;
   marker.on('click', () => showSidebar(location));
   markers.push(marker);
+}
+
+function createSpeedCameraMarkers(speedCameras) {
+  const scale = getScaleFromZoom(map.getZoom());
+  speedCameras.forEach(cam => {
+    const color = tagColors[cam.primaryTag] || '#d35400';
+
+    if (cam.icon && cam.primaryTag) {
+      colorizeIcon(cam.icon, color, scale, tintedSrc => {
+        const size = 32 * scale;
+        const icon = L.icon({
+          iconUrl: tintedSrc,
+          iconSize: [size, size],
+          iconAnchor: [size / 2, size / 2]
+        });
+        addSpeedCameraMarker(cam, icon);
+      });
+    } else {
+      const icon = L.divIcon({ className: 'custom-marker', iconSize: [16, 16] });
+      addSpeedCameraMarker(cam, icon);
+    }
+  });
+}
+
+function addSpeedCameraMarker(cam, icon) {
+  const marker = L.marker([cam.y, cam.x], {
+    icon,
+    title: cam.name
+  });
+
+  marker.metaData = cam;
+  marker.metaTags = cam.tags;
+  marker.on('click', () => showSidebar(cam));
+  speedCameraMarkers.push(marker);
+  speedCameraLayer.addLayer(marker);
 }
 
 //edit mode

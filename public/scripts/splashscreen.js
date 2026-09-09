@@ -1,9 +1,28 @@
 function closePopup() {
-    document.getElementById("popup").style.display = "none";
+    var popup = document.getElementById("popup");
+    if (popup) {
+        popup.style.display = "none";
+    }
 }
 
-document.getElementById("popup").addEventListener("click", function(event) {
-    if (event.target === this) {
+function openPopup() {
+    var popup = document.getElementById("popup");
+    if (popup) {
+        popup.style.display = "flex";
+    }
+}
+
+var popupElement = document.getElementById("popup");
+if (popupElement) {
+    popupElement.addEventListener("click", function(event) {
+        if (event.target === this) {
+            closePopup();
+        }
+    });
+}
+
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
         closePopup();
     }
 });
